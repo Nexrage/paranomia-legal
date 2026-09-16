@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Paranomia — media playback demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="margin:0;background:#000;color:#fff;font-family:sans-serif;display:flex;flex-direction:column;align-items:center;padding:24px">
+  <h1 style="font-weight:600;font-size:18px">Paranomia in-game audio</h1>
+  <p style="max-width:40rem;opacity:.8">Gameplay with the in-game soundtrack. Audio is played through expo-audio, which declares FOREGROUND_SERVICE_MEDIA_PLAYBACK on Android.</p>
+  <video controls autoplay muted playsinline src="media-playback-demo.mp4" style="width:min(360px,100%);aspect-ratio:9/16;background:#111"></video>
+  <p style="opacity:.6;font-size:12px">Unmute to hear the track. Direct file: <a href="media-playback-demo.mp4" style="color:#9cf">media-playback-demo.mp4</a></p>
+</body>
+</html>
